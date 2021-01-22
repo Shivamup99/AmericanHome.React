@@ -1,0 +1,44 @@
+.banner{
+
+    height: 50vh;
+    position: relative;
+    /* height: 700px;
+    width: 1347px;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}.banner_info{
+    background-color:black;
+    color: whitesmoke;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 ;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+.banner_info>button{
+    background-color: brown;
+    color: white;
+    text-transform: inherit;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+.banner_info > button:hover{
+    background-color: lightcoral;
+    color: lightgray;
+}
+.banner_info >h5{
+    margin-top: 1rem;
+
+}
